@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.4px;
+}
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/037/924/original/abstract-blue-background-with-beautiful-fluid-shapes-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: white;
+  width: 550px;
+  padding: 50px 40px;
+  border-radius: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 100px 80px rgba(0, 0, 0, 0.1);
+  
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+.lbl {
+  font-size: 16px;
+  color: #44475b;
+  font-weight: 400;
+}
+.val {
+  color: #44475b;
+  font-weight: 500;
+  font-size: 18px;
+}
+.input-box {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 5px;
+}
+#bill {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 130px;
+  text-align: right;
+  border: 1.5px solid black;
+  border-radius: 4px;
+}
+hr {
+  border: none;
+  border-bottom: 1px solid #cdccfd;
+}
+input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+input[type="range"]:not(:last-child) {
+  margin-bottom: 5px;
+}
+section:not(:last-child) {
+  margin-bottom: 40px;
+}
+section:not(:first-child) {
+  margin-top: 40px;
+}
+section:last-child {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+}
+section:last-child .val,
+section:last-child .lbl {
+  color: black;
+  font-weight: 550;
+}
